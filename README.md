@@ -51,13 +51,18 @@ Your task is to do the following:
   re-create the database every time. You should drop tables that may already exist (e.g.
   from prior runs of your test) before creating an initializing the tables in the program.
 - Implement the following query functions:
- -query1(): show all atributes of each player with average statistics that fall
+
+* query1(): show all atributes of each player with average statistics that fall
    between the min and max for each enabled statistic
- -query2(): show the name of each team with the indicated uniform color
- -query3(): show the first and last name of each player that plays for the indicated
+   
+* query2(): show the name of each team with the indicated uniform color
+
+* query3(): show the first and last name of each player that plays for the indicated
    team, ordered from highest to lowest ppg (points per game)
- -query4(): show first name, last name, and jersey number of each player that
+   
+* query4(): show first name, last name, and jersey number of each player that
    plays in the indicated state and wears the indicated uniform color
- -query5() show first name and last name of each player, and team name and
+   
+* query5() show first name and last name of each player, and team name and
    number of wins for each team that has won more than the indicated number of
    games
